@@ -28,7 +28,7 @@ output.innerHTML = `<h1> Letting Him COOK!!! </h1>`;
         role: 'user',
         parts: [
           { inline_data: { mime_type: 'image/jpeg', data: imageBase64, } },
-          { text: "Provide a recipe for the baked goods in the image and a title for the recipe" }
+          { text: "Accurately identify the baked good in the image and provide an appropriate and recipe consistent with your analysis." }
         ]
       }
     ];
